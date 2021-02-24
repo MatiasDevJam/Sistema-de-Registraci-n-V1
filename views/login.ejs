@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head') %> 
+<body>
+    
+    <h1 class="row justify-content-center col-12 mt-2">Login</h1>
+    <form action="" method="POST">
+        <div class="container-fluid col-3 mt-5">
+           
+       
+         
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" placeholder="" name="pass">
+          </div>
+           <div class="row justify-content-center">
+          <button type="submit" class="btn btn-success col-6 mt-5">Iniciar sesión</button>
+        </div>
+        </div>
+        </form>
+
+        <% if (typeof errores != 'undefined') { %>
+          <ul>
+            <% errores.forEach(error => { %>
+             <li><%= error.msg %> </li>
+            <% }) %>
+          </ul>
+         <% } %>
+
+
+        <%- include('partials/script')  %> 
+</body>
+</html>

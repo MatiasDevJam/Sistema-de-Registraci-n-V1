@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "username": "Nuevo1",
+    "lastname": "apellido",
+    "email": "Nuevo2@gmail.com",
+    "pass": "$2b$12$fchPZe8XfQmWhv4ydXNfve9QANP5qhNb.Pt08O5ZWAjA49dwcbBpu",
+    "avatar": "avatar-1614189617779.png"
+  },
+  {
+    "id": 1,
+    "username": "Nuevo1",
+    "lastname": "apellido",
+    "email": "Nuevo1@gmail.com",
+    "pass": "$2b$12$reHu7VGZRUTXwVQe91ZnOurnLih4Fu4rrC9M.abgbQDdA7MDixyAO",
+    "avatar": "avatar-1614189737402.png"
+  }
+]
